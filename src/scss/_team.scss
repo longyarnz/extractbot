@@ -1,0 +1,56 @@
+section.team{
+  padding: 100px 10%;
+  background-color: #f9f9f9;
+
+  h1{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 150%;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  main{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+    figure{
+      box-shadow: 0px 2px 4px rgba(#000, .2);
+      background-color: #fff;
+      border-radius: 3px;
+      margin: 10px;
+      flex: 1;
+      padding: 20px;
+      color: #aaa;
+      
+      div{
+        display: inline-flex;
+        justify-content: space-between;
+      }
+
+      h4{
+        margin: 0px 0px 10px 0px;
+        font-family: Montserrat;
+        font-weight: 200;
+        font-size: 100%;
+        text-transform: uppercase;
+      }
+      
+      figcaption{
+        font-size: 80%;
+        color: #000;
+        margin-left: auto;
+        line-height: 1.5;
+
+        &:last-of-type{
+          width: 120px;
+          height: 80px;
+          background-color: #aaa;
+        }
+      }
+    }
+  }
+}

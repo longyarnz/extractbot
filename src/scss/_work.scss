@@ -1,0 +1,25 @@
+section.work{
+  width: 100%;
+  padding: 100px 10%;
+  margin: 0px;
+  background-color: #143B62;
+  color: #fff;
+  box-shadow: 0px -1px 2px rgba(#000, .2), 0px 1px 2px rgba(#000, .2);
+
+  h1{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 150%;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  ul{
+    list-style: decimal;
+    
+    li{
+      padding: 20px;
+    }
+  }
+}
